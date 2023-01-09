@@ -10,7 +10,7 @@ const SurahCard = ({ sura }) => {
       <div className="card-body">
         <h2 className="text-2xl text-white">{sura.name}</h2>
       </div>
-      <Link to={`sura-details/${sura.id}`}>
+      <Link to={`/surah/${sura.id}`}>
         <FaLongArrowAltRight className="text-3xl mr-8" />
       </Link>
     </div>

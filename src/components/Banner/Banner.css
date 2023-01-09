@@ -15,3 +15,8 @@
   font-size: 75px;
   color: yellow;
 }
+
+img.w-96 {
+  width: 100px;
+  height: 100px;
+}

@@ -1,8 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700&family=Noto+Serif+Bengali:wght@400;500;600;700;800;900&display=swap");
-
+@import url("https://fonts.maateen.me/charu-chandan-3d/font.css");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "bangla";
+  src: url("./assets/fonts/bangla2.ttf");
+}
 
 .arabic {
   font-family: "Noto Naskh Arabic", serif;
@@ -10,4 +15,7 @@
 
 .bangla {
   font-family: "Noto Serif Bengali", serif;
+}
+.bangla3d {
+  font-family: "CharuChandan3D", sans-serif;
 }
